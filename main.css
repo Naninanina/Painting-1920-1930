@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.header {
+    width: 50%;
+    transform: scale(-1, -1);
+    padding-left: 20%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    writing-mode: vertical-lr;
+    color: red;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+
+ul {
+    width: 50%;
+    text-transform: uppercase;
+    text-align: end;
+    font: menu;
+    font-size: 0.9vw;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color:brown;
+}
