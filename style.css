@@ -1,8 +1,70 @@
+* {
+  overflow-x: hidden;
+}
 .container {
     max-width: 928px;
     margin: 0 auto;
     padding: 0 16px;
+    padding-bottom: 8px;
     font-size: 3.5vw;
   }
 
-  
+  footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    width: 100vw;
+    font-size: 0.9vw;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sources {
+    width: 21%;
+    display: inline-block;
+}
+
+.stretching {
+    display: flex;
+    justify-content: space-between;
+}
+
+.years {
+    font-size: 3.65vw;
+    font-weight: bold;
+}
+
+.art {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr {
+    height: 4px;
+    background-color: white;
+}
+.museum {
+    font-size: 0.7vw;
+    text-transform: uppercase;
+    font-weight: inherit;
+}
+
+.contacts {
+    display: inline-block;
+    float: right;
+    padding-top: 5%;
+    padding-right: 5%;
+
+}
+
+footer a {
+    color: white;
+}
+
+
+
+
