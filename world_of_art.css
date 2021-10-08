@@ -3,6 +3,16 @@
     font-family: sans-serif;
 }
 
+.back {
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(105, 105, 105);
+}
 .header {
     display: flex;
     justify-content: center;

@@ -61,6 +61,14 @@ hr {
 
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color:brown;
+}
+
 footer a {
     color: white;
 }
