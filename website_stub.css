@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: url("img/art_Kandinsky_Composition_6.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.container a {
+    color: white;
+    font-size: 3vh;
+    font-family: sans-serif;
+    padding-top: 3vh;
+}
+
+a:hover {
+    color: brown;
+}
+
+.blockout {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 12vh;
+    letter-spacing: 3.25vh;
+}
+
+p {
+    font-size: 3vh;
+    font-family: sans-serif;
+}
+
+footer {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0.5vw;
+    opacity: 0.8;
+}
+
+.sources, .year, footer a {
+    color: grey;
+}
+
+hr {
+    background-color: grey;
+    border-color:grey;
+}
