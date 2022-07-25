@@ -42,6 +42,10 @@ img {
     width: 100%;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+}
 
 figcaption {
     width: 45%;
